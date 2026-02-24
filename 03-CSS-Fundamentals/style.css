@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(16, 152, 173);
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  color: rgb(16, 152, 173);
+  font-size: 40px;
+}
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+h3 {
+  color: rgb(16, 152, 173);
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+li {
+  font-size: 20px;
+  line-height: 2;
+}
+footer p {
+  font-size: 16px;
+  font-family: sans-serif;
+}
