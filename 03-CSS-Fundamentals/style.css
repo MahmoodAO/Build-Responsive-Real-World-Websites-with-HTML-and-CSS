@@ -5,16 +5,21 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
-  color: rgb(16, 152, 173);
   font-size: 26px;
   font-style: italic;
   text-transform: uppercase;
 }
 h2 {
-  color: rgb(16, 152, 173);
   font-size: 40px;
 }
 p {
@@ -23,7 +28,6 @@ p {
   line-height: 1.5;
 }
 h3 {
-  color: rgb(16, 152, 173);
   font-size: 30px;
 }
 h4 {
@@ -35,7 +39,36 @@ li {
   font-size: 20px;
   line-height: 2;
 }
-footer p {
+
+/* footer p {
   font-size: 16px;
-  font-family: sans-serif;
+} */
+
+/*article header p {
+  font-style: italic;
+}
+*/
+#auther {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px #1098ad solid;
+  border-bottom: 5px #1098ad solid;
 }
