@@ -72,3 +72,26 @@ aside {
   border-top: 5px #1098ad solid;
   border-bottom: 5px #1098ad solid;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+/* Styling Links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* LVHA */
