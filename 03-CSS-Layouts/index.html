@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clearfix">
         <h1>📘 The Code Magazine</h1>
         <nav>
           <a href="blog.html">Blog</a>
@@ -15,18 +15,20 @@
           <a href="#">Flexbox</a>
           <a href="#">CSS Grid</a>
         </nav>
+        <!-- <div class="clear"></div> -->
       </header>
 
-      <article>
+      <article class="article">
         <header class="post-header">
           <h2>The Basic Language of the web: HTML</h2>
           <img
+            class="auther-img"
             src="img/laura-jones.jpg"
             alt="laura-jones picture"
             height="50"
             width="50"
           />
-          <p id="auther">
+          <p id="auther" class="auther">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
 
